@@ -1,0 +1,48 @@
+.examContent {
+  background: rgb(128 128 128 / 0.1);
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+.disable {
+  pointer-events: none;
+  opacity: .7;
+}
+
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.answers {
+  display: flex;
+  gap: 10px;
+}
+
+.answer {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 0 !important;
+  transition: .2s;
+
+  &:hover {
+    translate: 5px;
+  }
+}
+
+.selected {
+  background: rgb(125 166 239 / 0.3);
+}
